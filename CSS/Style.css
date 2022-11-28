@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+h1{
+    color: rgb(238, 181, 211);
+}
+h1,h2,h3{
+    font-family: 'Lora', serif;
+}
+
+section article h1{
+    color:rgb(7, 7, 7);
+    font-family: 'Lora', serif;
+    line-height: normal;
+    font-style: italic;
+
+
+
+
+}
+
+section h1{ /*promociones*/
+    color: rgb(0, 0, 0);
+}
+
+section p{
+    color:rgb(0, 0, 0);
+}
+
+.text-alert{
+    color: rgb(252, 248, 248);
+}
+
+
+
+nav{
+    background-color: rgb(250,230,255,.5);
+    
+}
+nav li{
+    display: inline-block;
+}
+
+nav ul{
+    list-style:none;
+}
+
+nav ul li a{
+    color:darkslategray;
+    text-decoration: darkmagenta;
+
+}
+
+.text-bold{
+    font-weight: 500;
+}
+
+.text-light{
+    font-weight: 300;
+}
+
+.text-regular{
+    font-weight: 400;
+}
+.text-center{
+    text-align: center;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.text-left{
+    text-align: left;
+}
+
+
+body{
+    background-image: url(../img/moon.jpg);
+}
+
