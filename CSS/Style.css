@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 
+}
 h1{
     color: rgb(238, 181, 211);
 }
@@ -34,7 +37,7 @@ section p{
 
 nav{
     background-color: rgb(250,230,255,.5);
-    
+    padding: 4px 30px;
 }
 nav li{
     display: inline-block;
@@ -58,23 +61,45 @@ nav ul li a{
     font-weight: 300;
 }
 
-.text-regular{
+.text-Regular{
     font-weight: 400;
 }
-.text-center{
+.text-Center{
     text-align: center;
 }
 
-.text-right{
+.text-Right{
     text-align: right;
 }
 
-.text-left{
+.text-Left{
     text-align: left;
 }
 
 
 body{
     background-image: url(../img/moon.jpg);
+    background-position: center;
 }
 
+.bg-Light{
+    background-color: antiquewhite;
+}
+
+.novedades__section { /*linea 52*/
+    width: 80%;
+    height: auto;
+    margin: 50px auto;  
+    padding: 40px;
+    border:dashed 2px brown ; /*dashed es el diseño del borde*/
+    
+
+
+}
+
+.encabezado_box--tel{
+    text-align: center;
+    background-color:rgb(230, 158, 182);
+    padding: 6px 0;
+
+}
