@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 *{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+    
 
 }
 h1{
@@ -15,6 +18,7 @@ section article h1{
     font-family: 'Lora', serif;
     line-height: normal;
     font-style: italic;
+    
 
 
 
@@ -30,7 +34,8 @@ section p{
 }
 
 .text-alert{
-    color: rgb(252, 248, 248);
+    color: rgb(0, 0, 0);
+    border-bottom: brown;
 }
 
 
@@ -85,14 +90,17 @@ body{
 .bg-Light{
     background-color: antiquewhite;
 }
-
-.novedades__section { /*linea 52*/
+.promociones__section{
+    height:25%;
+    width: 25%;
+}
+.novedades__section { /*linea 59*/
     width: 80%;
     height: auto;
     margin: 50px auto;  
     padding: 40px;
     border:dashed 2px brown ; /*dashed es el diseño del borde*/
-    
+    overflow: auto;
 
 
 }
