@@ -43,13 +43,16 @@ section p{
 nav{
     background-color: rgb(250,230,255,.5);
     padding: 4px 30px;
+
+
+
 }
 nav li{
     display: inline-block;
 }
 
 nav ul{
-    list-style:none;
+    display: inline-block;
 }
 
 nav ul li a{
@@ -101,6 +104,8 @@ body{
     padding: 40px;
     border:dashed 2px brown ; /*dashed es el diseño del borde*/
     overflow: auto;
+    box-sizing: border-box;
+
 
 
 }
@@ -111,3 +116,17 @@ body{
     padding: 6px 0;
 
 }
+
+.footer__dis{
+    padding: 10px 0;
+    
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
