@@ -123,7 +123,9 @@ body{
     box-sizing: border-box;
 }
 
-
+.encabezado_img_fluid{
+    width: 100%
+}
 
 
 
