@@ -43,6 +43,11 @@ section p{
 nav{
     background-color: rgb(250,230,255,.5);
     padding: 4px 30px;
+    position: sticky;
+    top: 0;
+    left:0;
+    width: 100%;
+    bottom: 0;
 
 
 
