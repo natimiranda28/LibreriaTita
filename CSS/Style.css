@@ -102,7 +102,7 @@ body{
     height:25%;
     width: 25%;
 }
-.novedades__section { /*linea 59*/
+.novedades__section { 
     width: 80%;
     height: auto;
     margin: 50px auto;  
@@ -124,7 +124,6 @@ body{
 
 .footer__dis{
     padding: 10px 0;
-    
     box-sizing: border-box;
 }
 
